@@ -20,16 +20,16 @@ function Jumbotron() {
                 </div>
                 <div className='w-full flex flex-row flex-wrap lg:justify-start lg:gap-4 gap-2'>
                     <div className='flex flex-col lg:px-6 px-5 py-4 bg-grey-10 border-[0.2px] border-grey-20 rounded-lg gap-1'>
-                        <div className='lg:text-2xl text-xl font-bold'>200+</div>
-                        <div className='text-grey-60 lg:text-base text-sm font-medium'>Happy Customers</div>
+                        <div className='lg:text-2xl text-lg font-bold'>200+</div>
+                        <div className='text-grey-60 lg:text-base text-xs font-medium'>Happy Customers</div>
                     </div>
                     <div className='flex flex-col lg:px-6 px-5 py-4 bg-grey-10 border-[0.2px] border-grey-20 rounded-lg gap-1'>
-                        <div className='lg:text-2xl text-xl font-bold'>10k+</div>
-                        <div className='text-grey-60 lg:text-base text-sm font-medium'>Properties for Clients</div>
+                        <div className='lg:text-2xl text-lg font-bold'>10k+</div>
+                        <div className='text-grey-60 lg:text-base text-xs font-medium'>Properties for Clients</div>
                     </div>
                     <div className='flex flex-col lg:px-6 px-5 py-4 bg-grey-10 border-[0.2px] border-grey-20 rounded-lg gap-1'>
-                        <div className='lg:text-2xl text-xl font-bold'>16+</div>
-                        <div className='text-grey-60 lg:text-base text-sm font-medium'>Years of Experience</div>
+                        <div className='lg:text-2xl text-lg font-bold'>16+</div>
+                        <div className='text-grey-60 lg:text-base text-xs font-medium'>Years of Experience</div>
                     </div>
                 </div>
             </div>
