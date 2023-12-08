@@ -16,7 +16,7 @@ function Navbar() {
     }, [pathname]);
     return (
         <nav className='sticky top-0 flex flex-row items-center justify-between bg-grey-blur backdrop-blur-lg border-y-[0.2px] border-grey-20 py-4 lg:px-14 px-8 z-50'>
-            <div className='ps-5'>
+            <div className='lg:ps-5 ps-0'>
                 <Image className='w-auto lg:h-11 h-8' src={logo} alt='estatein' width={500} height={500} quality={100} sizes='100vw' />
             </div>
             <ul className={`navbar-menu ${showNavbar ? 'flex' : 'hidden'} lg:flex lg:flex-row md:flex-row flex-col items-center lg:justify-center justify-between lg:px-0 lg:py-0 px-16 md:py-5 py-7 pb-5 lg:gap-3 gap-3`}>
