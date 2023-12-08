@@ -15,19 +15,19 @@ function Jumbotron() {
                     </p>
                 </div>
                 <div className='flex flex-row gap-4'>
-                    <button className='font-medium px-5 py-3 bg-grey-08 border-[0.2px] border-grey-20 rounded-lg' type="button">Learn More</button>
-                    <button className='font-medium px-5 py-3 bg-purple-60 border-[0.2px] border-purple-60 rounded-lg' type="button">Browse Properties</button>
+                    <button className='lg:text-base text-sm font-medium px-5 py-3 bg-grey-08 border-[0.2px] border-grey-20 rounded-lg' type="button">Learn More</button>
+                    <button className='lg:text-base text-sm font-medium px-5 py-3 bg-purple-60 border-[0.2px] border-purple-60 rounded-lg' type="button">Browse Properties</button>
                 </div>
-                <div className='w-full flex flex-row flex-wrap lg:justify-start lg:gap-4 gap-3'>
-                    <div className='flex flex-col px-6 py-4 bg-grey-10 border-[0.2px] border-grey-20 rounded-lg gap-1'>
+                <div className='w-full flex flex-row flex-wrap lg:justify-start lg:gap-4 gap-2'>
+                    <div className='flex flex-col lg:px-6 px-5 py-4 bg-grey-10 border-[0.2px] border-grey-20 rounded-lg gap-1'>
                         <div className='lg:text-2xl text-xl font-bold'>200+</div>
                         <div className='text-grey-60 lg:text-base text-sm font-medium'>Happy Customers</div>
                     </div>
-                    <div className='flex flex-col px-6 py-4 bg-grey-10 border-[0.2px] border-grey-20 rounded-lg gap-1'>
+                    <div className='flex flex-col lg:px-6 px-5 py-4 bg-grey-10 border-[0.2px] border-grey-20 rounded-lg gap-1'>
                         <div className='lg:text-2xl text-xl font-bold'>10k+</div>
                         <div className='text-grey-60 lg:text-base text-sm font-medium'>Properties for Clients</div>
                     </div>
-                    <div className='flex flex-col px-6 py-4 bg-grey-10 border-[0.2px] border-grey-20 rounded-lg gap-1'>
+                    <div className='flex flex-col lg:px-6 px-5 py-4 bg-grey-10 border-[0.2px] border-grey-20 rounded-lg gap-1'>
                         <div className='lg:text-2xl text-xl font-bold'>16+</div>
                         <div className='text-grey-60 lg:text-base text-sm font-medium'>Years of Experience</div>
                     </div>
