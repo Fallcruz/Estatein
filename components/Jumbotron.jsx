@@ -10,7 +10,7 @@ function Jumbotron() {
                     <h1 className='lg:text-5xl text-4xl font-semibold lg:leading-[58px] leading-[42px]'>
                         Discover Your Dream Property with Estatein
                     </h1>
-                    <p className='text-grey-60 text-base mt-3'>
+                    <p className='text-grey-60 xl:text-base text-sm mt-3'>
                         Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.
                     </p>
                 </div>
@@ -21,15 +21,15 @@ function Jumbotron() {
                 <div className='flex flex-row flex-wrap lg:justify-start lg:gap-4 gap-3'>
                     <div className='grow flex flex-col lg:px-6 px-5 py-4 bg-grey-10 border-[0.2px] border-grey-15 rounded-lg gap-1 lg:items-start items-center'>
                         <div className='lg:text-2xl text-xl font-bold'>200+</div>
-                        <div className='text-grey-60 text-base font-medium'>Happy Customers</div>
+                        <div className='text-grey-60 xl:text-base text-sm font-medium'>Happy Customers</div>
                     </div>
                     <div className='grow flex flex-col lg:px-6 px-5 py-4 bg-grey-10 border-[0.2px] border-grey-15 rounded-lg gap-1 lg:items-start items-center'>
                         <div className='lg:text-2xl text-xl font-bold'>10k+</div>
-                        <div className='text-grey-60 text-base font-medium'>Properties for Clients</div>
+                        <div className='text-grey-60 xl:text-base text-sm font-medium'>Properties for Clients</div>
                     </div>
                     <div className='grow flex flex-col lg:px-6 px-5 py-4 bg-grey-10 border-[0.2px] border-grey-15 rounded-lg gap-1 lg:items-start items-center'>
                         <div className='lg:text-2xl text-xl font-bold'>16+</div>
-                        <div className='text-grey-60 text-base font-medium'>Years of Experience</div>
+                        <div className='text-grey-60 xl:text-base text-sm font-medium'>Years of Experience</div>
                     </div>
                 </div>
             </div>
