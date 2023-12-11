@@ -5,9 +5,9 @@ import Property3 from '@/public/assets/properties/3.png'
 
 function FeaturedProperties() {
     return (
-        <div className='flex flex-col xl:px-16 px-4 xl:py-16 py-4 gap-8'>
+        <div className='flex flex-col xl:px-16 px-8 xl:py-16 py-4 xl:mt-0 mt-10 gap-8'>
             <div className='flex flex-row items-end justify-between gap-2'>
-                <div className='w-[80%] flex flex-col gap-4'>
+                <div className='lg:w-[80%] flex flex-col gap-4'>
                     <h1 className='xl:text-4xl text-3xl font-semibold'>Featured Properties</h1>
                     <p className='text-grey-60 xl:text-base text-sm'>
                         Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein. Click &quot;View Details&quot; for more information.
@@ -32,7 +32,7 @@ function FeaturedProperties() {
                             <h1 className='lg:text-xl text-base font-medium'>$550,000</h1>
                         </div>
                         <div>
-                            <button className='h-full lg:text-sm text-sm font-medium lg:px-6 px-2 lg:py-3 bg-purple-60 border-[0.2px] border-purple-60 rounded-lg' type="button">View Properties Details</button>
+                            <button className='h-full lg:text-sm text-xs font-medium lg:px-6 px-4 bg-purple-60 border-[0.2px] border-purple-60 rounded-lg' type="button">View Properties Details</button>
                         </div>
                     </div>
                 </div>

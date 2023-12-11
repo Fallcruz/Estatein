@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar'
 import Jumbotron from '@/components/Jumbotron'
 import Highlight from '@/components/Highlight'
 import FeaturedProperties from '@/components/FeaturedProperties'
+import Testimonial from '@/components/Testimonial'
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
             <Jumbotron />
             <Highlight />
             <FeaturedProperties />
+            <Testimonial />
             <div className='my-14'></div>
         </main>
     )

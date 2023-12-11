@@ -1,12 +1,12 @@
 import Image from 'next/image'
-import jumbotronBuilding from '@/public/assets/jumbotron-building-full.png'
+import jumbotronBuilding from '@/public/assets/jumbotron-building.webp'
 import jumbotronBadge from '@/public/assets/jumbotron-badge.png'
 
 function Jumbotron() {
     return (
         <div className='flex lg:flex-row flex-col-reverse justify-between lg:px-0 px-4 gap-2'>
             <div className='basis-[55%] flex flex-col items-start justify-center lg:ps-[6%] md:ps-0 lg:py-10 py-6 lg:px-0 px-0 gap-8'>
-                <div className='flex flex-col lg:pe-20 pe-0 gap-7'>
+                <div className='flex flex-col lg:pe-20 lg:px-0 px-4 gap-7'>
                     <h1 className='lg:text-5xl text-4xl font-semibold lg:leading-[58px] leading-[42px]'>
                         Discover Your Dream Property with Estatein
                     </h1>
@@ -14,7 +14,7 @@ function Jumbotron() {
                         Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.
                     </p>
                 </div>
-                <div className='flex flex-row lg:gap-4 gap-3'>
+                <div className='flex flex-row lg:gap-4 gap-3 lg:px-0 px-4'>
                     <button className='lg:text-base text-sm font-medium px-5 py-3 bg-grey-08 border-[0.2px] border-grey-20 rounded-lg' type="button">Learn More</button>
                     <button className='lg:text-base text-sm font-medium px-5 py-3 bg-purple-60 border-[0.2px] border-purple-60 rounded-lg' type="button">Browse Properties</button>
                 </div>
